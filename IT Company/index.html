@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IT Company Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>IT Company</h1>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="video-background">
+      <video autoplay muted loop id="myVideo">
+        <source src="ITC1.mp4" type="video/mp4" />
+      </video>
+      <div class="video-content">
+        <h1>IT Company</h1>
+        <p>We Build Future-proof Solutions</p>
+        <a href="#services" class="btn">Learn More</a>
+      </div>
+    </div>
+
+    <main>
+      <section id="about">
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>
+            We are an innovative IT company that specializes in software
+            development, cloud services, web design, and much more. Our mission
+            is to provide cutting-edge solutions that help our clients achieve
+            their goals.
+          </p>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="services-content">
+          <h2>Services</h2>
+          <p>
+            Our team of experts can help you with a wide range of IT solutions
+            including:
+          </p>
+          <ul>
+            <li>Software Development</li>
+            <li>Cloud Services</li>
+            <li>Web Design</li>
+            <li>Data Analytics</li>
+            <li>Mobile App Development</li>
+          </ul>
+          <a href="#">Learn More</a>
+        </div>
+      </section>
+
+      <section id="blog">
+        <div class="blog-content">
+          <h2>Blog</h2>
+          <p>
+            Stay up to date on the latest industry news and trends with our
+            blog. We share company updates and insights on IT topics that matter
+            to you.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <div class="row">
+            <div class="col">
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <div class="col">
+              <div class="contact-info">
+                <p>Dhankawadi</p>
+                <p>Pune</p>
+                <p>Phone: 999-999-9999</p>
+                <p>Email: info@yourcompany.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
